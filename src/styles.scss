@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Rubik', sans-serif;
+  background:#f9f9f9;
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:10px
+}
+.text--right{
+  text-align: right;
+}
+.text--red{
+  color:#f00000
+}
+.map{
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+}
+.footer-nav{
+  position: absolute;
+  bottom:0px;
+  z-index: 99;
+  height:60px;
+  background:white;
+  width:100%;
+}
+.btn-main{
+  background: #f00000;
+  color: white;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.agm-map{
+  width: 100%;
+  height:100%;
+  position: absolute;
+}
+agm-map {
+  height: 100%;
+  width:100%;
+}
+.wrapper{
+  position: absolute;
+  width:100%;
+}
+.car-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 40px;
+  height:calc(100vh - 60px);
+  position: relative;
+  h3{
+    color:#888;
+  }
+  .car-detail__specs{
+    padding:20px;
+  }
+  .car-detail__title{
+    position: absolute;
+    font-size:140px;
+    opacity: 0.5;
+    color:#ddd;
+  }
+  .main{
+    position:relative;
+    width:700px;
+    height:350px;
+    img{
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+      top:0px;
+    }
+  }
+  
+}
+
+
+
+.block, .block1 {
+  margin:45px 0px;
+  }
+  .cars{
+    display: flex; 
+    justify-content: space-between;
+    padding:40px;
+  }
+  .car{
+    &__box{
+      width: 40%;
+      padding: 40px;
+      background:white;
+      margin:3%;
+      img{
+        width:100%;
+      }
+    }
+  }
